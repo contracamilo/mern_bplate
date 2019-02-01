@@ -1,0 +1,39 @@
+{
+  "name": "la-rodadita",
+  "version": "1.0.0",
+  "description": "moving app",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node src/server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/contracamilo/mern_bplate.git"
+  },
+  "keywords": [
+    "MERN"
+  ],
+  "author": "Camilo Rivera Quintero <camilo.riveraq@gmail.com> (https://contracamilo.github.io/camiloriveracv/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/contracamilo/mern_bplate/issues"
+  },
+  "homepage": "https://github.com/contracamilo/mern_bplate#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  }
+}
