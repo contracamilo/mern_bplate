@@ -4,7 +4,8 @@
   "description": "moving app",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node src/server/app.js"
+    "start": "babel-node src/server/app.js",
+    "prestart": "webpack --mode development"
   },
   "repository": {
     "type": "git",
@@ -27,13 +28,17 @@
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
-    "babel-loader": "^8.0.5",
+    "babel-core": "^6.0.0",
+    "babel-loader": "^7.0.0",
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^2.1.0",
+    "node-sass": "^4.11.0",
     "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react-dom": "^16.7.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1"
   }
 }
